@@ -7,8 +7,8 @@ use clap::Parser;
 
 fn main() {
     let args = TruthArgs::parse();
-    // filters::manager_sal();
-    println!("args: {:?}", args);
+
+    filters::manager_sal(&args.file_path);
 }
 
 
