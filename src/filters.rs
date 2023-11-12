@@ -1,4 +1,3 @@
-// Goal to return all managers and there average salaries
 use office::{Excel, Range, DataType};
 
 
