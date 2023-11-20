@@ -47,7 +47,7 @@ pub fn manager_supervisor_director(role: &str) ->bool {
     let manager = String::from("Manager");
     let supervisor = String::from("Supervisor");
     let director = String::from("Director");
-    let executive = String::from("Excutive");
+    let executive = String::from("Executive");
  
         if role.contains(&manager){
             true
@@ -80,7 +80,7 @@ pub fn avgerage_sal(arr: &Vec<DataType>) -> Option<f64> {
         }
     }
     let num = arr.len();
-  
+    
     let avg: f64 = sum / num as f64;
     Some(avg)
 }
